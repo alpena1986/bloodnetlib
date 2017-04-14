@@ -10,9 +10,13 @@ public class Profile {
 	
 	private String firstName;
 	
-	private String birthdate;
+	private String birthYear;
 	
 	private String idNumber;
+	
+	private String email;
+	
+	private String phoneNo;
 	
 	public String getSex() {
 		return sex;
@@ -38,13 +42,6 @@ public class Profile {
 		this.firstName = firstName;
 	}
 
-	public String getBirthdate() {
-		return birthdate;
-	}
-
-	public void setBirthdate(String birthdate) {
-		this.birthdate = birthdate;
-	}
 
 	public String getIdNumber() {
 		return idNumber;
@@ -60,5 +57,29 @@ public class Profile {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	public String getBirthYear() {
+		return birthYear;
+	}
+
+	public void setBirthYear(String birthYear) {
+		this.birthYear = birthYear;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPhoneNo() {
+		return phoneNo;
+	}
+
+	public void setPhoneNo(String phoneNo) {
+		this.phoneNo = phoneNo;
 	}
 }
